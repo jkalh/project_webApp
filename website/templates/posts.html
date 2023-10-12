@@ -1,0 +1,19 @@
+{% extends "posts_div.html" %}
+
+{% block title %}
+  {{ username }}'s Posts
+{% endblock %}
+
+{% block header %}
+  <div class="container">
+    <h1 class="display-4">{{ username }}'s Posts</h1>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  <div class="container mt-4">
+    <div class="text-center">
+      <a href="/home" class="btn btn-primary btn-lg">Back</a>
+    </div>
+  </div>
+{% endblock %}
